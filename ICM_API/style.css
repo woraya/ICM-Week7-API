@@ -1,0 +1,67 @@
+html, body {
+	overflow: hidden;
+	margin: 10;
+	padding: 10;
+}
+
+#my-text{
+	// header text
+	display: inline-block;
+	background-color: rgb(68, 68, 68);
+	color: white;
+	padding-left: 65px;
+	padding-right: 60px;
+	padding-top: 11px;
+	padding-bottom: 9px;
+	font-size: 18px;
+	font-family: "Helvatica", Sans-serif;
+	font-weight: normal;
+	letter-spacing: 2px;
+	text-align: center;
+
+}
+
+#button1 {
+	padding-left: 12px;
+    padding-right: 12px;
+    border-top-width: 4px;
+    border-bottom-width: 2px;
+    padding-top: 3px;
+    width: 98px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-family: "Helvatica", Sans-serif;
+    font-weight: normal;
+    margin-top: 5px;
+/*    position : absolute;
+    top : 70px;
+    left : 20px;*/
+}
+
+#button2 {
+	padding-left: 12px;
+    padding-right: 12px;
+    border-top-width: 4px;
+    border-bottom-width: 2px;
+    padding-top: 3px;
+    width: 98px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-family: "Helvatica", Sans-serif;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-top: 5px;
+/*    position : absolute;
+    top : 70px;
+    left : 140px;*/
+
+}
+
+#input{
+	padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 790px;
+    margin-right: 5px;
+}
