@@ -52,8 +52,10 @@ function search() {
   console.log('im search')
 
   var chance = Math.random(0, 1);
-  var randomVal1 = Math.floor(Math.random() * api1.length - 1);
-  var randomVal2 = Math.floor(Math.random() * api2.length - 1);;
+//   var randomVal1 = Math.floor(Math.random() * api1.length - 1);
+//   var randomVal2 = Math.floor(Math.random() * api2.length - 1);
+  var randomVal1 = floor(random(api1.length));
+  var randomVal2 = floor(random(api2.length));
   var url1;
   var url2;
   var term = input.value();
